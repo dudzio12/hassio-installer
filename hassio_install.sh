@@ -61,7 +61,7 @@ case $ARCH in
             echo "[ERROR] Please set machine for $ARCH"
             exit 1
         fi
-        HOMEASSISTANT_DOCKER="$DOCKER_REPO/$MACHINE-homeassistant"
+        HOMEASSISTANT_DOCKER="$DOCKER_REPO/armhf-homeassistant"
         HASSIO_DOCKER="$DOCKER_REPO/armhf-hassio-supervisor"
     ;;
     "aarch64")
